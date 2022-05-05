@@ -3,9 +3,9 @@
 :root {
     /* dy color */
     --select-text-bg-color: #ffafa3; /* 文本选中背景色（粉红） */
-    /*--primary-color: red;*/
-    --bg-color: white; /* 整体背景色（白色） */
-    --sidebarbg-color: white; /* 侧边栏背景色（白色） */
+    --primary-color: red;
+    --bg-color: rgb(242,242,242); /* 整体背景色（白色）white,改动*/
+    --sidebarbg-color: rgb(217,217,217); /* 侧边栏背景色（白色white），改动 */
     --focus-color: #ff5d52; /* 点击某些元素（如标题）显示的颜色（偏红） */
     --codeblockbg-color: #eee; /* 代码块背景色（灰色） */
     --codeblockfont-color: #555; /* 代码块默认字体颜色（黑色） */
