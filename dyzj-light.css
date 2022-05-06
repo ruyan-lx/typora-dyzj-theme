@@ -2,6 +2,7 @@
 
 :root {
     /* dy color */
+	--nav-text-color: #27DCF1;  /* 导航栏局部文本颜色 */
     --select-text-bg-color: #ffafa3; /* 文本选中背景色（粉红） */
     --primary-color: red;
     --bg-color: rgb(242,242,242); /* 整体背景色（白色）white,改动*/
