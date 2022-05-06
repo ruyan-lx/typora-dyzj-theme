@@ -67,3 +67,12 @@
 你可以在下载的“demo.md”中查阅以上内容，或者前往<a href="https://typora-dyzj-theme.vercel.app/">地址</a>在线预览
 
 <font>致谢</font>：[zj主题作者](https://github.com/Theigrams/My-Typora-Themes)、[butterfly主题](https://github.com/jerryc127/hexo-theme-butterfly)、[volantis主题](https://volantis.js.org/)
+
+
+
+## 更新
+
+1. 导航栏样式稍微改动
+2. 增加正文主题显示宽度
+3. 因为斜体使用频率较低，索性把斜体Ctrl+i，改为了*红色加粗斜体*
+4. 全屏时gif图片更换
