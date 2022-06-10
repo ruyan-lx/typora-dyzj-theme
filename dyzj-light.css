@@ -21,7 +21,7 @@
     --tablefocusrow-color: #e0f8f8; /* 表格鼠标悬停行颜色（淡蓝） */
     --tableborder-color: #c5c5c5; /* 表格边框色（黑色） */
     --tablethbg-color: #f4fcff; /* 表格表头背景色（淡蓝） */
-    --scrollbar-color: #9e9e9e; /* 滚动条颜色（灰色） */
+    --scrollbar-color: #c1c1c1; /* 滚动条颜色（灰色#9e9e9e），改动 */
     --toc-color: #00a0a0; /* 目录颜色（绿色） */
     --atext-color: black; /* 超链接文本颜色（黑色） */
     --ahover-color: #ffffffe6; /* 超链接悬停文本颜色（白色） */
