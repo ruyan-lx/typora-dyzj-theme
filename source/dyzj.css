@@ -2,6 +2,57 @@
 @import './zj/fonts.css';
 
 
+/* ------------分隔线---------- 
+一些自定义的，搜索“改动"即可知道我改了哪些*/
+/* 加粗的字体 */
+/* p strong {
+	color:red;
+} */
+/* 斜体字体:加粗，红色 */
+em span{
+   color:red;
+	font-weight:bolder;
+}
+/* 导航栏布局样式 */
+div#outline-content {
+    background-color: #e7eaea;
+    border-radius: 16px;
+    border: 8px solid white;
+}
+/* 导航标签卡字体 */
+.info-panel-tab-title{
+	color: var(--nav-text-color);
+    font-size: 18px;
+}
+/* 导航栏当前标题字体样式 */
+span.outline-label.outline-active {
+    color: var(--nav-text-color);
+}
+/* 窗口顶部文档名称 */
+.title-text{
+	font-size: 17px;
+    font-weight: bolder;
+}
+/* 当前行样式 */
+.md-focus-container::before
+{
+	left:-15px!important;
+}
+p.md-focus::before
+{
+	content:"🐾";    /*✏️ 改动：当前行前边符号*/
+	position:absolute;
+	left:-20px;
+}
+p.md-focus>span.md-plain.md-expand 
+{
+	border-bottom:2px dashed #8f4d1d!important;
+	color: #8f4d1d;
+}
+
+
+/* ------------分隔线---------- */
+
 html {
     font-size: 17px;
 }
@@ -39,7 +90,8 @@ body {
 }
 
 #write {
-    max-width: 860px;
+    /* max-width: 860px; 改动，整体显示宽度*/
+	max-width: 1100px;
     margin: 0 auto;
     padding: 20px 30px 160px;
 }
@@ -58,7 +110,8 @@ content {
     content {
         background: var(--bgimg-url) no-repeat;
         background-size : 12%;
-        background-position: 86% 100%;
+        /* background-position: 86% 100%;  改动：往右挪 */
+		background-position: 95% 97.5%;
     }
     /*效仿https://github.com/Soanguy/typora-theme-autumnus，取消下面注释，并注释上面（content）即可，换个背景（透明）风格*/
     /*content {
@@ -700,9 +753,9 @@ pre.md-meta-block {
     padding: 2px 4px;
     border-radius: 2px;
     font-family: var(--code-font); /*font-family: '微软雅黑';*/
-    font-size: 0.9rem;
+    font-size: 1rem;  /*改动，``包裹的字体大小 0.9rem*/
     color: var(--code-color);
-    background-color: var(--codebg-color);
+    background-color: var(--codebg-color);  
 }
 
 
@@ -968,8 +1021,8 @@ details pre {
     color: inherit;
 }
 
-/* 图片自动编号 */
-#write{
+/* 图片自动编号 ，改动：取消编号*/
+/* #write{
     counter-reset: imgNum;
 }
 #write p>.md-image:after{
@@ -1010,7 +1063,7 @@ div[alt="fig"]{
 
 #md-notification {
     background-color: var(--bg-color) !important;
-}
+} */
 
 /* focus mode */
 
@@ -1030,7 +1083,8 @@ footer {
 
 
 #typora-sidebar{
-    background-color: var(--sidebarbg-color);
+    /* background-color: var(--sidebarbg-color); 改动，侧边栏颜色*/
+	background-color: rgb(238, 245, 245);
 }
 
 .file-list-item:hover, .file-list-item.active {
