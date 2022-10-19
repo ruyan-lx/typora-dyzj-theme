@@ -55,5 +55,8 @@
     --body-font: 'Source Sans Pro', '等距更纱黑体 SC', 'Helvetica Neue', Arial, sans-serif; /* 全局字体（"Poppins", -apple-system, "Helvetica Neue", Helvetica, "Noto Sans", "Nimbus Sans L", Arial, "Liberation Sans", "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;） */
     --code-font: 'JetBrains Mono'; /* 代码块以及行内代码字体 */
     /* bg image */
-    --bgimg-url: url(./bg-light.gif);
+    --bgimg-url: url('./bg-light.gif');
+	/* 背景图片 */
+	background: url(./source/light.jpg) -1px 0px no-repeat;
+	background-size: cover;
 }

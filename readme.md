@@ -80,6 +80,28 @@
 6. 增加对光标所在行的底部棕色虚线，当前输入的文本为棕色
    灵感参考 [vlook](https://github.com/MadMaxChow/VLOOK)
 7. 在编辑行时，行首显示的铅笔emoji改为了脚印emoji
-8. 图片加上了阴影效果，更加立体
-9. 代码块微调
+
+
+
+------
+
+<img src="readme.assets/image-20221019205052011.png" alt="image-20221019205052011" style="zoom:67%;" />
+
+<img src="readme.assets/image-20221019205221403.png" alt="image-20221019205221403" style="zoom:67%;" />
+
+1. 图片加上了阴影效果，更加立体
+2. 代码块微调
+3. 添加窗口的背景图片
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -67,6 +67,7 @@ body {
     overflow-x: hidden;
     text-align: justify;
     text-justify: inter-ideograph;
+	background: url("./source/xiaoya.png") no-repeat 45% 90% transparent;
 }
 
 .window * {
@@ -679,13 +680,13 @@ div[alt="notitle-table"] table tr th, div[alt="notitle-table"] table tr td {
     padding-left: 12px;
 }
 .md-fences {
-    background: var(--codeblockbg-color);
+    background: #fafafa   /* 改动，代码块背景色 var(--codeblockbg-color); */
     border-radius: 3px;
     color: var(--codeblockfont-color);
     overflow-wrap: break-word;
     word-wrap: break-word;
     line-height: 1.6em;
-    border: 1px solid #d0d5d7;
+    border: 2px dashed #d0d5d7;   /* #d0d5d7;   改动：代码框边框样式1px solid #d0d5d7 */
 }
 
 /* 行号左框线 */
@@ -975,7 +976,9 @@ details pre {
     margin: 15px auto 5px;
 }
 .md-image img {
-    border-radius: 4px;
+	box-shadow: 20px 15px 20px #949494;  /* 改动：图片增加阴影 */
+    border-radius: 15px;
+	border: 0px;
 }
 
 /* 当按`![shadow-随便写]()`格式写时（或`<img src="" alt="shadow-随便写">`），会有阴影 */
