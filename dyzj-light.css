@@ -56,7 +56,7 @@
     --code-font: 'JetBrains Mono'; /* 代码块以及行内代码字体 */
     /* bg image */
     --bgimg-url: url('./bg-light.gif');
-	/* 背景图片 */
-	background: url(./source/light.jpg) -1px 0px no-repeat;
+	/* 背景图片 */  
+	background: url(./source/light.jpg) fixed no-repeat center ;
 	background-size: cover;
 }
