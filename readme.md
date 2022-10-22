@@ -107,10 +107,17 @@ public static void main(String[] agrs){
 ```
 
 1. 代码块加入Mac风格的三个圆点
+   此版本<font>下载地址</font>：https://github.com/ruyan-lx/typora-dyzj-theme/releases/tag/V11.0
 
 
 
+------
 
+![image-20221022162709967](readme.assets/image-20221022162709967.png)
+
+1. 代码块微调
+2. 背景图片调整
+3. 文章主体部分样式调整
 
 
 

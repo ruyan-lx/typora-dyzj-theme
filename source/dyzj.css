@@ -67,7 +67,27 @@ body {
     overflow-x: hidden;
     text-align: justify;
     text-justify: inter-ideograph;
-	background: url("./source/xiaoya.png") no-repeat 45% 90% transparent;
+}
+/* 改动：新增页面背景 */
+body:before {
+    background: url(https://img2018.cnblogs.com/blog/1646268/201906/1646268-20190625093618683-318547492.jpg) center/cover no-repeat;
+    /* background: url(https://s1.ax1x.com/2022/10/19/xyuMFA.png) center/cover no-repeat; */
+    content: '';
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* -webkit-filter: grayscale(40%); */
+    /* -moz-filter: grayscale(40%); */
+    /* -ms-filter: grayscale(40%); */
+    /* -o-filter: grayscale(40%); */
+    filter: grayscale(40%);
+    filter: gray;
 }
 
 .window * {
@@ -95,6 +115,9 @@ body {
 	max-width: 1100px;
     margin: 0 auto;
     padding: 20px 30px 160px;
+	/* 改动：新增文章主体背景颜色以及圆角 */
+    background-color: #ffffffb0;
+    border-radius: 10px;
 }
 
 /*
@@ -680,13 +703,32 @@ div[alt="notitle-table"] table tr th, div[alt="notitle-table"] table tr td {
     padding-left: 12px;
 }
 .md-fences {
-    background: #fafafa   /* 改动，代码块背景色 var(--codeblockbg-color); */
+    background:  #d8d8d8;   /* 改动，代码块背景色 var(--codeblockbg-color); */
     border-radius: 3px;
     color: var(--codeblockfont-color);
     overflow-wrap: break-word;
     word-wrap: break-word;
     line-height: 1.6em;
-    border: 2px dashed #d0d5d7;   /* #d0d5d7;   改动：代码框边框样式1px solid #d0d5d7 */
+    border: 1px solid #d0d5d7;   
+}
+
+.md-fences { 
+	position: relative; 
+	padding:40px 20px 20px;
+}
+.md-fences::before {
+    content: '';
+    position: absolute;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #fc625d;
+    width: 20px;
+    height: 20px;
+    left: 14px;
+    top: 11px;
+    -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+    box-shadow: 25px 0 #fdbc40, 50px 0 #35cd4b;
+    z-index: 4;
 }
 
 /* 行号左框线 */
