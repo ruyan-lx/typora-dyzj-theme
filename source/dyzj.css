@@ -75,6 +75,7 @@ body {
     overflow-x: hidden;
     text-align: justify;
     text-justify: inter-ideograph;
+	background: #eeeeee00;  /* 改动：新增背景颜色，透明 */
 }
 /* 改动：新增页面背景 */
 body:before {
@@ -128,9 +129,11 @@ body:before {
 }
 
 
-content {
-    background-color: var(--bg-color) !important;
-}
+/* 
+content { */
+    /* background-color: var(--bg-color) !important; */
+/* } 
+*/
 
 
 
@@ -721,20 +724,20 @@ div[alt="notitle-table"] table tr th, div[alt="notitle-table"] table tr td {
 
 .md-fences { 
 	position: relative; 
-	padding:40px 20px 20px;
+	padding:25px 10px 15px;
 }
 .md-fences::before {
-    content: '';
+	content: '';
     position: absolute;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #fc625d;
-    width: 20px;
-    height: 20px;
-    left: 14px;
-    top: 11px;
+    width: 15px;
+    height: 15px;
+    left: 10px;
+    top: 5px;
     -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-    box-shadow: 25px 0 #fdbc40, 50px 0 #35cd4b;
+    box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
     z-index: 4;
 }
 

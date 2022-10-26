@@ -5,7 +5,7 @@
 	--nav-text-color: #27DCF1;  /* 导航栏局部文本颜色 */
     --select-text-bg-color: #ffafa3; /* 文本选中背景色（粉红） */
     --primary-color: red;
-    --bg-color: #eeeeee00; /* 整体背景色（白色）white,改动*/
+    --bg-color: rgb(242,242,242); /* 整体背景色（白色）white,改动、#eeeeee00;*/
     --sidebarbg-color: rgb(217,217,217); /* 侧边栏背景色（白色white），改动 */
     --focus-color: #ff5d52; /* 点击某些元素（如标题）显示的颜色（偏红） */
     --codeblockbg-color: #eee; /* 代码块背景色（灰色） */
