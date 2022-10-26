@@ -15,14 +15,20 @@ em span{
 }
 /* 导航栏布局样式 */
 div#outline-content {
-    background-color: #e7eaea;
-    border-radius: 16px;
-    border: 8px solid white;
+    background-color: #ffffff3d;   /* 改动：导航内容背景颜色#e7eaea; */
+    border-radius: 12px;
+    /* border: 8px solid white; */
+	box-shadow: inset -3px -1px 15px 0px #a0a0a0;
+    padding-left: 10px;
 }
 /* 导航标签卡字体 */
 .info-panel-tab-title{
 	color: var(--nav-text-color);
     font-size: 18px;
+}
+/* 导航标签卡选中下标颜色 */
+.info-panel-tab-border{
+	background-color: var(--nav-text-color)!important;
 }
 /* 导航栏当前标题字体样式 */
 span.outline-label.outline-active {
@@ -51,6 +57,8 @@ p.md-focus>span.md-plain.md-expand
 }
 
 
+
+
 /* ------------分隔线---------- */
 
 html {
@@ -70,8 +78,7 @@ body {
 }
 /* 改动：新增页面背景 */
 body:before {
-    background: url(https://img2018.cnblogs.com/blog/1646268/201906/1646268-20190625093618683-318547492.jpg) center/cover no-repeat;
-    /* background: url(https://s1.ax1x.com/2022/10/19/xyuMFA.png) center/cover no-repeat; */
+	background: var(--backgroundimage-url) center/cover no-repeat;
     content: '';
     background-repeat: no-repeat;
     background-position: center;
@@ -82,10 +89,10 @@ body:before {
     width: 100%;
     height: 100%;
     z-index: -1;
-    /* -webkit-filter: grayscale(40%); */
-    /* -moz-filter: grayscale(40%); */
-    /* -ms-filter: grayscale(40%); */
-    /* -o-filter: grayscale(40%); */
+    -webkit-filter: grayscale(40%);
+    -moz-filter: grayscale(40%);
+    -ms-filter: grayscale(40%);
+    -o-filter: grayscale(40%);
     filter: grayscale(40%);
     filter: gray;
 }
@@ -120,11 +127,11 @@ body:before {
     border-radius: 10px;
 }
 
-/*
+
 content {
     background-color: var(--bg-color) !important;
 }
-*/
+
 
 
 /* 人物背景图片（右下角显示） */
@@ -1129,7 +1136,7 @@ footer {
 
 #typora-sidebar{
     /* background-color: var(--sidebarbg-color); 改动，侧边栏颜色*/
-	background-color: rgb(238, 245, 245);
+	background-color: rgb(255 255 255 / 54%);
 }
 
 .file-list-item:hover, .file-list-item.active {
