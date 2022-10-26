@@ -70,7 +70,9 @@
 
 
 
-## DIY
+## DIY更新：
+
+### 较早版本
 
 <img src="readme.assets/image-20221020153823322.png" alt="image-20221020153823322" style="zoom: 67%;" />
 
@@ -87,15 +89,21 @@
 
 ------
 
+### 2022.10.19
+
 <img src="readme.assets/image-20221019205052011.png" alt="image-20221019205052011" style="zoom: 50%;" />
 
 <img src="readme.assets/image-20221019205221403.png" alt="image-20221019205221403" style="zoom: 50%;" />
+
+sha：b5304155fd2f0fa2a96caa5d7695b503fa4b5860
 
 1. 图片加上了阴影效果，更加立体
 2. 代码块微调
 3. 添加窗口的背景图片
 
 ------
+
+### 2022.10.20
 
 ![image-20221020162607454](readme.assets/image-20221020162607454.png)
 
@@ -106,6 +114,8 @@ public static void main(String[] agrs){
 }
 ```
 
+**sha**：c81b7eff9db964aa8a3084c6c82a139d38b33eeb
+
 1. 代码块加入Mac风格的三个圆点
    此版本<font>下载地址</font>：https://github.com/ruyan-lx/typora-dyzj-theme/releases/tag/V11.0
 
@@ -113,13 +123,17 @@ public static void main(String[] agrs){
 
 ------
 
-![image-20221022162709967](readme.assets/image-20221022162709967.png)
+### 2022.10.22
+
+<img src="readme.assets/image-20221022162709967.png" alt="image-20221022162709967" style="zoom: 33%;" />
+
+
 
 1. 代码块微调
 2. 背景图片调整
 3. 文章主体部分样式调整
 
-
+------
 
 
 
