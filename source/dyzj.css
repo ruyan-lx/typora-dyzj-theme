@@ -121,11 +121,12 @@ body:before {
 #write {
     /* max-width: 860px; 改动，整体显示宽度*/
 	max-width: 1100px;
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 20px 30px 160px;
 	/* 改动：新增文章主体背景颜色以及圆角 */
     background-color: #ffffffb0;
     border-radius: 10px;
+	box-shadow: 0px 0px 20px 4px #ffffff;      
 }
 
 
@@ -141,14 +142,14 @@ content { */
 
 
 @media only screen and (min-width: 1800px){
-    content {
-        background: var(--bgimg-url) no-repeat;
-        background-size : 12%;
-        /* background-position: 86% 100%;  改动：往右挪 */
-		background-position: 95% 97.5%;
-    }
+    /* content { */
+        /* background: var(--bgimg-url) no-repeat; */
+        /* background-size : 12%; */
+		/* background-position: 95% 97.5%;	 /* 86% 100%;  改动：往右挪 */ */
+    /* } */
+	
     /*效仿https://github.com/Soanguy/typora-theme-autumnus，取消下面注释，并注释上面（content）即可，换个背景（透明）风格*/
-    /*content {
+    content {
         background: var(--bgimg-url) no-repeat;
         background-size : 30%;
         background-position: center 10%;
@@ -169,7 +170,7 @@ content { */
     }
     #write details, #write details summary {
         border-color: #d0d5d7 !important;
-    }*/
+    }
 }
 content #md-searchpanel {
     background: var(--bg-color);
